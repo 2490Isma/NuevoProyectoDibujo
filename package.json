@@ -1,0 +1,16 @@
+{
+  "name": "ejemplo",
+  "version": "1.0.0",
+  "description": "Mi primer repositorio",
+  "main": "varios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejemplo": "file:",
+    "express": "^4.21.1"
+  }
+}
