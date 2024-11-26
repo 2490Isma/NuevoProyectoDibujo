@@ -26,7 +26,12 @@ function enviarDatos(event) {
         },
         body: JSON.stringify(data), // Convertir el objeto en una cadena JSON
     })
-
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Credenciales incorrectas');
+        }
+        return response.text();
+    })
     .then(data => {
         window.location.href = '/bienvenido';
     })
