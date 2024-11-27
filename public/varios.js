@@ -58,3 +58,9 @@ function cerrarModal() {
 function volver() {
     window.history.back();
 }
+
+const boton = document.getElementById('DibujoArtistico');
+boton.addEventListener('click', function() {
+  window.location.replace('dibujo_artistico.html');
+});
+
