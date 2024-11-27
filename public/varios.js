@@ -58,3 +58,19 @@ function cerrarModal() {
 function volver() {
     window.history.back();
 }
+
+function redirigir(){
+    
+}
+//function redireccionar(event) {
+//    event.preventDefault(); // Prevenir que el formulario se envíe y la página se recargue
+//    const boton = event.submitter; // Obtener el botón que fue presionado
+
+//    if (boton.id === 'titulos') {
+//        window.location.href = '/titulos'; // Redirigir a una nueva página o URL
+//    } else if (boton.id === 'presentacion1.html') {
+//        window.location.href = '/publicaciones-internacionales';
+//    } else if (boton.id === 'publiEspecializada') {
+//        window.location.href = '/publicaciones-especializadas';
+//    }
+//}
