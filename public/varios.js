@@ -62,5 +62,8 @@ function volver() {
 const boton = document.getElementById('DibujoArtistico');
 boton.addEventListener('click', function() {
   window.location.replace('dibujoArtistico.html');
+
+
 });
+
 
