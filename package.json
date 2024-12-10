@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "ejemplo": "file:",
-    "express": "^4.21.1"
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
   }
 }

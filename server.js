@@ -3,6 +3,8 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
+const { verificarCredenciales } = require('./action');
+
 app.use(express.json());
 
 // Servir archivos estáticos desde la carpeta 'public'
@@ -14,14 +16,22 @@ app.get('/inicio', (req, res) => {
 });
 
 // Manejar la solicitud POST para /logueo
-app.post('/logueo', (req, res) => {
+app.post('/logueo', async (req, res) => {
   const { email, password } = req.body;
 
-  //acá vamos a agregar una llamada a la BD
-  if (email === 'usuario@example.com' && password === 'password123') {
-      res.json({ message: '¡Bienvenido!' });
-  } else {
-      res.status(401).json({ message: 'Credenciales incorrectas' });
+  try {
+    // Llamar a la función de action.js para verificar las credenciales
+    const credencialesValidas = await verificarCredenciales(email, password);
+
+    if (credencialesValidas) {
+        res.json({ message: '¡Bienvenido!' });
+    } else {
+        res.status(401).json({ message: 'Credenciales incorrectas' });
+    }
+   } catch (error) {
+    // Si hubo algún error al leer la base de datos
+    console.error(error);
+    res.status(500).json({ message: 'Error en el servidor' });
   }
 });
 
