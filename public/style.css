@@ -13,6 +13,7 @@ body {
 
 }
 
+
 /* Contenedor de la caja de inicio de sesión */
 .container {
     background-color: white;
@@ -178,6 +179,20 @@ button {
 }
 
 button:hover {
+    background-color: #795608; /* Color más oscuro al pasar el ratón */
+}
+
+a{
+    background-color: #c1880d; /* Color de fondo */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-size: 16px;
+}
+
+a:hover {
     background-color: #795608; /* Color más oscuro al pasar el ratón */
 }
 
