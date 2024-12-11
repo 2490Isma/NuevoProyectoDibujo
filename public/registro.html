@@ -24,6 +24,19 @@
     <div class="container">
         <h1>Registro</h1>
         <form id="registro" onclick="iniciarFormulario()"> 
+
+            <div>
+                <label for="Nombres">Ingrese Nombre</label>
+                <input type="Nombres" id="Nombres" >
+            </div>
+            <div>
+                <label for="Apellido">Ingrese Apellido</label>
+                <input type="Apellido" id="Apellido" >
+            </div>
+            <div>
+                <label for="Edad">Ingrese Edad</label>
+                <input type="Edad" id="Edad" >
+            </div>
             <div>
                 <label for="email">Ingrese email:</label>
                 <input type="email" id="email" >
@@ -32,7 +45,9 @@
                 <label for="password">Ingrese contraseña:</label>
                 <input type="password" id="password" >
             </div>
-            <button type="submit" >Iniciar sesion</button>
+            
+            <button type="submit" >Registro</button>
+            <button onclick="volver()">Volver a inicio</button>
         </form>
     </div>
     

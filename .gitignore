@@ -13,3 +13,4 @@ node_modules/
 
 # Ignorar archivos de entorno
 .env
+base de datos.xlsx
