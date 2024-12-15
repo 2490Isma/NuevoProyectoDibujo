@@ -63,11 +63,14 @@ const boton = document.getElementById('DibujoArtistico');
 boton.addEventListener('click', function() {
   window.location.replace('dibujoArtistico.html');
   
-  document.getElementById('Registro');
-  boton.addEventListener('click', function() {
-    window.location.replace(registro.html)
-  })
 
+
+});
+
+const boton_1 = document.getElementById('DibujoTécnico');
+boton_1.addEventListener('click', function() {
+  window.location.replace('dibujoTecnico.html');
+  
 });
 
 
