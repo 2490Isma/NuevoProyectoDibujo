@@ -93,8 +93,10 @@ body {
     font-family: monospace;
     font-size: 30px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    top: 0 ;
     background-color: white;
 
     border-radius: 30px; /* Esquinas redondeadas */
@@ -118,6 +120,7 @@ body {
     text-align: center; /* Centrar texto */
 }
 
+/*Contenedores de Pagina Bienvenido*/
 .container_cartel{
     font-family: monospace;
 
@@ -135,6 +138,7 @@ body {
     width: 250px; /* Ancho fijo para la caja */
     text-align:center;
 }
+
 
 .container_cartel_2{
 
@@ -155,6 +159,44 @@ body {
   
 }
 
+.container_cartel_3{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 250px;
+    right: 700px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+
+.container_cartel_4{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 250px;
+    right: 1000px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+/*Fin Contenedores de Pagina Bienvenido*/
 
 /* Encabezados */
 h1 {

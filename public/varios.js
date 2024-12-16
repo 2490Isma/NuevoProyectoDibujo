@@ -59,19 +59,9 @@ function volver() {
     window.history.back();
 }
 
-const boton = document.getElementById('DibujoArtistico');
-boton.addEventListener('click', function() {
-  window.location.replace('dibujoArtistico.html');
-  
 
 
-});
 
-const boton_1 = document.getElementById('DibujoTécnico');
-boton_1.addEventListener('click', function() {
-  window.location.replace('dibujoTecnico.html');
-  
-});
 
 
 
