@@ -249,13 +249,29 @@ a{
     font-size: 16px;
     text-decoration: none;
     text-align: center;
-    position: absolute;right;
+    position: absolute;
     bottom: 6px; /* Baja la altura de una posicion de un boton */
     left: 25%;
     
 }
 
 a:hover {
+    background-color: #795608; /* Color más oscuro al pasar el ratón */
+}
+
+a1{
+    background-color: #c1880d; /* Color de fondo */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+   
+}
+a1:hover {
     background-color: #795608; /* Color más oscuro al pasar el ratón */
 }
 
