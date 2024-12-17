@@ -1,7 +1,6 @@
-
 // funcion para escuchar un evento
 function iniciarFormulario() {
-    const form = document.getElementById('logueo'); // toma el formulario por id
+    const form = document.getElementById('registro'); // toma el formulario por id
     if (form) {
         form.addEventListener('submit', enviarDatos); // asocia el evento 'submit' al formulario
     }
@@ -12,15 +11,18 @@ function enviarDatos(event) {
     event.preventDefault(); // Evitar el envío del formulario por defecto
 
     // Obtener los valores del formulario
+    const Nombres = document.getElementById('Nombres').value;
+    const Apellido = document.getElementById('Apellido').value;
+    const Edad = document.getElementById('Edad').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
 
     // Crear un objeto con los datos
-    const data = { email, password };
+    const data = { Nombres, Apellido, Edad, email, password};
 
     // Enviar los datos al servidor
-    fetch('/logueo', {
-        method: 'POST',
+    fetch('/guardarUsuario', {
+        method: 'GET',
         headers: {
             'Content-Type': 'application/json', // Asegúrate de que es JSON
         },
@@ -58,11 +60,3 @@ function cerrarModal() {
 function volver() {
     window.history.back();
 }
-
-
-
-
-
-
-
-
