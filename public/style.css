@@ -105,6 +105,7 @@ body {
     text-align: center; /* Centrar texto */
 }
 
+
 .container_bienvenido{
     background-color: rgb(255, 255, 255);
     font-family: monospace;
@@ -311,11 +312,30 @@ button {
     cursor: pointer;
     border-radius: 5px; /* Esquinas redondeadas */
     font-size: 16px;
+    
 }
 
 button:hover {
     background-color: #795608; /* Color más oscuro al pasar el ratón */
 }
+/* Estilo para botones 2*/
+button1 {
+    background-color: #c1880d; /* Color de fondo */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Esquinas redondeadas */
+    font-size: 16px;
+    position: relative;
+    bottom: -10px;
+    
+}
+
+button1:hover {
+    background-color: #795608; /* Color más oscuro al pasar el ratón */
+}
+
 
 a{
     background-color: #c1880d; /* Color de fondo */
@@ -351,6 +371,29 @@ a1{
 }
 a1:hover {
     background-color: #795608; /* Color más oscuro al pasar el ratón */
+}
+
+
+.Volver_Logueo{
+
+    
+    font-family: monospace;
+    font-size: 23px;
+    transform: translateY(-20%);
+    position: absolute;
+    bottom: 0;
+    top: 30px;
+    right: 20px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 180px; /* Ancho fijo para la caja */
+    height: 50px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+
 }
 
 /* Estilos para el Modal */
