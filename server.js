@@ -37,11 +37,11 @@ app.post('/logueo', async (req, res) => {
   }
 });
 
-app.post('/presentacion', async (req, res) => {
+app.post('/registro', async (req, res) => {
   const { Nombre, Apellido, Edad,  email, password  } = req.body;
 
   try {
-    const solicitudGuardada = await ingresarPresentacion(Nombre, Apellido, Edad,  email, password );
+    const solicitudGuardada = await ingresarregistro(Nombre, Apellido, Edad,  email, password );
 
     if (solicitudGuardada) {
       // Only send the response once
@@ -62,7 +62,7 @@ app.post('/presentacion', async (req, res) => {
 
 
 // ruta para el archivo 'nuevo.html'
-app.get('/nuevo', (req, res) => {
+app.post('/registro', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'registro.html'));
 });
 

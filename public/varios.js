@@ -34,7 +34,7 @@ function enviarDatos(event) {
         if (!response.ok) {
             throw new Error('Credenciales incorrectas');
         }
-        return response.text();
+        return response.json();
     })
     .then(data => {
         window.location.href = '/bienvenido';
