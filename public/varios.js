@@ -14,9 +14,13 @@ function enviarDatos(event) {
     // Obtener los valores del formulario
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
+    const Nombre = document.getElementById('Nombre').value;
+    const Apellido = document.getElementById('Apellido').value;
+    const Edad = document.getElementById('Edad').value;
+
 
     // Crear un objeto con los datos
-    const data = { email, password };
+    const data = {Nombre, Apellido, Edad, email, password };
 
     // Enviar los datos al servidor
     fetch('/logueo', {

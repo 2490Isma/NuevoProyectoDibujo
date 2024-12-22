@@ -35,7 +35,7 @@ module.exports = { verificarCredenciales };
 
 
 
-function Registro(Nombres, Apellidos, Edad, email, password) {
+function ingresarPresentacion(Nombre, Apellido, Edad, email, password) {
     return new Promise((resolve, reject) => {
         // Conectar a la base de datos SQLite
         const db = new sqlite3.Database(dbPath, (err) => {
@@ -44,23 +44,30 @@ function Registro(Nombres, Apellidos, Edad, email, password) {
             }
         });
 
-        db.run('INSERT INTO presentacion (Nombre, Apellido, Edad, email, password) values (?,?,?,?,?)', (err, row) => 
-            {
+        // Crear la consulta de inserción
+        const query = 'INSERT INTO presentacion (Nombre, Apellido, Edad, email, password) VALUES (?, ?, ?, ?, ?)';
+
+        // Ejecutar la consulta
+        db.run(query, [Nombre, Apellido, Edad, email, password], function(err) {
             if (err) {
                 db.close();
-                return reject('Error al consultar la base de datos: ' + err.message);
+                return reject('Error al insertar en la base de datos: ' + err.message);
             }
 
-            if (row) {
-                resolve(true);
-            } else {
-                resolve(false);
-            }
+            // Si la inserción es exitosa, devolver el ID generado (this.lastID)
+            console.log('Registro insertado con ID:', this.lastID);  // Opcional: mostrar el ID insertado
+            resolve(true);
 
-            // Cerrar la base de datos después de la consulta
-            db.close();
+            // Cerrar la base de datos después de la operación
+            db.close((closeErr) => {
+                if (closeErr) {
+                    console.error('Error al cerrar la base de datos:', closeErr.message);
+                } else {
+                    console.log('Base de datos cerrada correctamente.');
+                }
+            });
         });
     });
 }
 
-module.exports = { verificarCredenciales };
+module.exports = { ingresarPresentacion };

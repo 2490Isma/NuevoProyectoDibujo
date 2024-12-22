@@ -19,11 +19,11 @@ app.get('/inicio', (req, res) => {
 
 // Manejar la solicitud POST para /logueo
 app.post('/logueo', async (req, res) => {
-  const { email, password } = req.body;
+  const { Nombre, Apellido, Edad,  email, password } = req.body;
 
   try {
     // Llamar a la función de action.js para verificar las credenciales
-    const credencialesValidas = await verificarCredenciales(email, password);
+    const credencialesValidas = await verificarCredenciales(Nombre, Apellido, Edad,  email, password );
 
     if (credencialesValidas) {
         res.json({ message: '¡Bienvenido!' });
@@ -36,6 +36,36 @@ app.post('/logueo', async (req, res) => {
     res.status(500).json({ message: 'Error en el servidor' });
   }
 });
+
+app.post('/presentacion', async (req, res) => {
+  const { Nombre, Apellido, Edad,  email, password  } = req.body;
+
+  try {
+    const solicitudGuardada = await ingresarPresentacion(Nombre, Apellido, Edad,  email, password );
+
+    if (solicitudGuardada) {
+      // Only send the response once
+      return res.json({ message: 'Ok' });
+    } else {
+      // Only send the response once
+      return res.status(401).json({ message: 'Nok' });
+    }
+
+  } catch (error) {
+    console.error(error);
+   
+    if (!res.headersSent) {
+      return res.status(500).json({ message: 'Error en el servidor' });
+    }
+  }
+});
+
+
+// ruta para el archivo 'nuevo.html'
+app.get('/nuevo', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'registro.html'));
+});
+
 
 app.get('/bienvenido', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'bienvenido.html'));
