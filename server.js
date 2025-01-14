@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 
 const { verificarCredenciales } = require('./action');
+const { ingresarPresentacion } = require('./action');
 
 app.use(express.json());
 
@@ -41,7 +42,7 @@ app.post('/registro', async (req, res) => {
   const { Nombre, Apellido, Edad,  email, password  } = req.body;
 
   try {
-    const solicitudGuardada = await ingresarregistro(Nombre, Apellido, Edad,  email, password );
+    const solicitudGuardada = await ingresarPresentacion(Nombre, Apellido, Edad,  email, password );
 
     if (solicitudGuardada) {
       // Only send the response once
