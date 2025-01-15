@@ -20,11 +20,11 @@ app.get('/inicio', (req, res) => {
 
 // Manejar la solicitud POST para /logueo
 app.post('/logueo', async (req, res) => {
-  const { Nombre, Apellido, Edad,  email, password } = req.body;
+  const { email, password } = req.body;
 
   try {
     // Llamar a la función de action.js para verificar las credenciales
-    const credencialesValidas = await verificarCredenciales(Nombre, Apellido, Edad,  email, password );
+    const credencialesValidas = await verificarCredenciales(email, password );
 
     if (credencialesValidas) {
         res.json({ message: '¡Bienvenido!' });

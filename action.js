@@ -31,7 +31,6 @@ function verificarCredenciales(email, password) {
     });
 }
 
-module.exports = { verificarCredenciales };
 
 
 
@@ -70,4 +69,9 @@ function ingresarPresentacion(Nombre, Apellido, Edad, email, password) {
     });
 }
 
-module.exports = { ingresarPresentacion };
+
+
+
+
+
+module.exports = { verificarCredenciales, ingresarPresentacion };
