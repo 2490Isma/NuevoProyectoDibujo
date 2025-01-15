@@ -74,4 +74,4 @@ function ingresarPresentacion(Nombre, Apellido, Edad, email, password) {
 
 
 
-module.exports = { verificarCredenciales, ingresarPresentacion };
+module.exports = { verificarCredenciales, ingresarPresentacion, registro };
