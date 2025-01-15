@@ -1,4 +1,5 @@
 const sqlite3 = require('sqlite3').verbose();
+const { register } = require('module');
 const path = require('path');
 
 // Ruta completa a la base de datos SQLite
@@ -13,7 +14,7 @@ function verificarCredenciales(email, password) {
             }
         });
 
-        db.get('SELECT * FROM usuarios WHERE email = ? AND password = ?', [email, password], (err, row) => {
+        db.get('SELECT * FROM Usuarios WHERE email = ? AND password = ?', [email, password], (err, row) => {
             if (err) {
                 db.close();
                 return reject('Error al consultar la base de datos: ' + err.message);
@@ -44,7 +45,7 @@ function ingresarPresentacion(Nombre, Apellido, Edad, email, password) {
         });
 
         // Crear la consulta de inserción
-        const query = 'INSERT INTO presentacion (Nombre, Apellido, Edad, email, password) VALUES (?, ?, ?, ?, ?)';
+        const query = 'INSERT INTO Usuarios (Nombre, Apellido, Edad, email, password) VALUES (?, ?, ?, ?, ?)';
 
         // Ejecutar la consulta
         db.run(query, [Nombre, Apellido, Edad, email, password], function(err) {
@@ -74,4 +75,4 @@ function ingresarPresentacion(Nombre, Apellido, Edad, email, password) {
 
 
 
-module.exports = { verificarCredenciales, ingresarPresentacion, registro };
+module.exports = { verificarCredenciales, ingresarPresentacion};

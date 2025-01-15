@@ -21,7 +21,7 @@ function enviarDatos(event) {
     const data = { Nombres, Apellido, Edad, email, password};
 
     // Enviar los datos al servidor
-    fetch('/guardarUsuario', {
+    fetch('/registro', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json', // Asegúrate de que es JSON

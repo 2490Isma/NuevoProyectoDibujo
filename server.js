@@ -62,10 +62,6 @@ app.post('/registro', async (req, res) => {
 });
 
 
-// ruta para el archivo 'nuevo.html'
-app.post('/registro', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'registro.html'));
-});
 
 
 app.get('/bienvenido', (req, res) => {
