@@ -22,7 +22,7 @@ function enviarDatos(event) {
 
     // Enviar los datos al servidor
     fetch('/registro', {
-        method: 'GET',
+        method: 'POST',
         headers: {
             'Content-Type': 'application/json', // Asegúrate de que es JSON
         },

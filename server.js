@@ -45,7 +45,6 @@ app.post('/registro', async (req, res) => {
     const solicitudGuardada = await ingresarPresentacion(Nombre, Apellido, Edad,  email, password );
 
     if (solicitudGuardada) {
-      // Only send the response once
       return res.json({ message: 'Ok' });
     } else {
       // Only send the response once

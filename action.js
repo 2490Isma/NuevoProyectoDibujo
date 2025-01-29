@@ -45,7 +45,7 @@ function ingresarPresentacion(Nombre, Apellido, Edad, email, password) {
         });
 
         // Crear la consulta de inserción
-        const query = 'INSERT INTO Usuarios (Nombre, Apellido, Edad, email, password) VALUES (?, ?, ?, ?, ?)';
+        const query = 'INSERT INTO Usuarios (Nombres, Apellidos, Edad, email, password) VALUES (?, ?, ?, ?, ?)';
 
         // Ejecutar la consulta
         db.run(query, [Nombre, Apellido, Edad, email, password], function(err) {
