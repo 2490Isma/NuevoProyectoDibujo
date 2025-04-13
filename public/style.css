@@ -524,17 +524,17 @@ a1:hover {
     font-size: 23px;
     position: fixed;
     bottom: 270px;
-    right: 350px;
+    right: 125px;
     background-color: white;
     border-radius: 15px; /* Esquinas redondeadas */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     
-    width: 250px; /* Ancho fijo para la caja */
+    width: 500px; /* Ancho fijo para la caja */
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
     border-radius: 15px; /* Esquinas redondeadas */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    width: 250px; /* Ancho fijo para la caja */
+    width: 400px; /* Ancho fijo para la caja */
     
   
 }
