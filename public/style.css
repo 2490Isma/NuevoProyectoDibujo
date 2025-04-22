@@ -894,7 +894,7 @@ a1:hover {
 .Materiales_Necesarios_DA_descripcion{
 
     font-family: monospace;
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
     bottom: 20px;
     right: 1000px;
@@ -935,7 +935,7 @@ a1:hover {
 .Materiales_adicionales_DA_descripcion{
 
     font-family: monospace;
-    font-size: 11px;
+    font-size: 10px;
     position: absolute;
     bottom: 20px;
     right: 700px;
