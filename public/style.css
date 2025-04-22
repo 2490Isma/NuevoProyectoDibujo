@@ -437,6 +437,8 @@ a1:hover {
     cursor: pointer;
 }
 
+
+/* Parte dedicada a Dibujo a tinta contenedores */
 /* Container Materiales Necesarios */
 .Materiales_Necesarios_DT{
 
@@ -477,7 +479,7 @@ a1:hover {
 
 }
 
-/* Parte dedicada a Dibujo a tinta contenedores */
+
 .Materiales_adicionales_DT{
 
     font-family: monospace;
@@ -540,6 +542,437 @@ a1:hover {
 }
 
 .Videos_Explicativos_DT_link{
+
+    font-family: monospace;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    right: 350px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+}
+
+.container_cartel_descripcion{
+    font-family: monospace;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+   
+
+}
+
+
+/* Parte dedicada a Dibujo a lapiz contenedores */
+/* Container Materiales Necesarios */
+.Materiales_Necesarios_DL{
+
+    font-family: monospace;
+    font-size: 23px;
+    
+    position: fixed;
+    bottom: 270px;
+    right: 1000px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+
+.Materiales_Necesarios_DL_descripcion{
+
+    font-family: monospace;
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 1000px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    margin: 0;
+}
+
+
+.Materiales_adicionales_DL{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 270px;
+    right: 700px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    width: 250px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+    margin: 0;
+  
+}
+
+.Materiales_adicionales_DL_descripcion{
+
+    font-family: monospace;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    right: 700px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 0;
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */  
+
+}
+
+.Videos_Explicativos_DL{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 270px;
+    right: 125px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+    width: 500px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 400px; /* Ancho fijo para la caja */
+    
+  
+}
+
+.Videos_Explicativos_DL_link{
+
+    font-family: monospace;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    right: 350px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+}
+
+.container_cartel_descripcion{
+    font-family: monospace;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+   
+
+}
+
+
+/* Parte dedicada a Dibujo a Tecnico contenedores */
+/* Container Materiales Necesarios */
+.Materiales_Necesarios_DTEC{
+
+    font-family: monospace;
+    font-size: 23px;
+    
+    position: fixed;
+    bottom: 270px;
+    right: 1000px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+
+.Materiales_Necesarios_DTEC_descripcion{
+
+    font-family: monospace;
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 1000px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+}
+
+
+.Materiales_adicionales_DTEC{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 270px;
+    right: 700px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    width: 250px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+
+.Materiales_adicionales_DTEC_descripcion{
+
+    font-family: monospace;
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 700px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */  
+
+}
+
+.Videos_Explicativos_DTEC{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 270px;
+    right: 125px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+    width: 500px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 400px; /* Ancho fijo para la caja */
+    
+  
+}
+
+.Videos_Explicativos_DTEC_link{
+
+    font-family: monospace;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    right: 350px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+}
+
+.container_cartel_descripcion{
+    font-family: monospace;
+    font-size: 12px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+   
+
+}
+
+
+/* Parte dedicada a Dibujo a Artistico contenedores */
+/* Container Materiales Necesarios */
+.Materiales_Necesarios_DA{
+
+    font-family: monospace;
+    font-size: 23px;
+    
+    position: fixed;
+    bottom: 270px;
+    right: 1000px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+
+.Materiales_Necesarios_DA_descripcion{
+
+    font-family: monospace;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    right: 1000px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+
+}
+
+
+.Materiales_adicionales_DA{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 270px;
+    right: 700px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */
+    width: 250px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+  
+}
+
+.Materiales_adicionales_DA_descripcion{
+
+    font-family: monospace;
+    font-size: 11px;
+    position: absolute;
+    bottom: 20px;
+    right: 700px;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 250px; /* Ancho fijo para la caja */  
+
+}
+
+.Videos_Explicativos_DA{
+
+    font-family: monospace;
+    font-size: 23px;
+    position: fixed;
+    bottom: 270px;
+    right: 125px;
+    background-color: white;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+    width: 500px; /* Ancho fijo para la caja */
+    height: 100px; /* Altura fijo para la caja */
+    text-align: center; /* Centrar texto */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 400px; /* Ancho fijo para la caja */
+    
+  
+}
+
+.Videos_Explicativos_DA_link{
 
     font-family: monospace;
     font-size: 11px;
