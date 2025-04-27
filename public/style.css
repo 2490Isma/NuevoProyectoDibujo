@@ -592,13 +592,10 @@ a1:hover {
         radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
         radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 12px) calc(100% - 24px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 24px) calc(100% - 12px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
         linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
-    border-radius: 15px;
-    width: 250px; /* Ancho fijo para la caja */
-    height: 100px; /* Altura fijo para la caja */
-
+    border-radius: 7px;
     box-sizing: border-box;
 }
 
@@ -647,13 +644,12 @@ a1:hover {
         radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
         radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 12px) calc(100% - 24px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 24px) calc(100% - 12px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
         linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
-    border-radius: 15px;
-
+    border-radius: 7px;
+    box-sizing: border-box;
 }
-
 .Materiales_adicionales_DT_descripcion{
 
     font-family: monospace;
@@ -696,10 +692,11 @@ a1:hover {
         radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
         radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
         radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 12px) calc(100% - 24px) no-repeat,
-        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 24px) calc(100% - 12px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
         linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
-    border-radius: 15px;
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 .Videos_Explicativos_DT_link{
@@ -763,6 +760,17 @@ a1:hover {
     text-align: center; /* Centrar texto */
   
 }
+.Materiales_Necesarios_DL:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
+}
 
 .Materiales_Necesarios_DL_descripcion{
 
@@ -805,6 +813,17 @@ a1:hover {
     margin: 0;
   
 }
+.Materiales_adicionales_DL:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
+}
 
 .Materiales_adicionales_DL_descripcion{
 
@@ -836,7 +855,6 @@ a1:hover {
     background-color: white;
     border-radius: 15px; /* Esquinas redondeadas */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    
     width: 500px; /* Ancho fijo para la caja */
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
@@ -844,7 +862,17 @@ a1:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 400px; /* Ancho fijo para la caja */
     
-  
+}
+.Videos_Explicativos_DL:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 .Videos_Explicativos_DL_link{
@@ -893,7 +921,6 @@ a1:hover {
 
     font-family: monospace;
     font-size: 23px;
-    
     position: fixed;
     bottom: 270px;
     right: 1000px;
@@ -907,6 +934,17 @@ a1:hover {
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
   
+}
+.Materiales_Necesarios_DTEC:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 .Materiales_Necesarios_DTEC_descripcion{
@@ -949,6 +987,17 @@ a1:hover {
     text-align: center; /* Centrar texto */
   
 }
+.Materiales_adicionales_DTEC:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
+}
 
 .Materiales_adicionales_DTEC_descripcion{
 
@@ -979,7 +1028,6 @@ a1:hover {
     background-color: white;
     border-radius: 15px; /* Esquinas redondeadas */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    
     width: 500px; /* Ancho fijo para la caja */
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
@@ -987,7 +1035,17 @@ a1:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 400px; /* Ancho fijo para la caja */
     
-  
+}
+.Videos_Explicativos_DTEC:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 .Videos_Explicativos_DTEC_link{
@@ -1045,6 +1103,17 @@ a1:hover {
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
 }
+.Materiales_Necesarios_DA:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
+}
 
 .Materiales_Necesarios_DA_descripcion{
 
@@ -1068,6 +1137,7 @@ a1:hover {
 
 
 .Materiales_adicionales_DA{
+
     font-family: monospace;
     font-size: 23px;
     position: fixed;
@@ -1080,14 +1150,22 @@ a1:hover {
     width: 300px; /* Ancho fijo para la caja */
     text-align: center; /* Centrar texto */
     border-radius: 15px; /* Esquinas redondeadas */
-    
     width: 250px; /* Ancho fijo para la caja */
     width: 250px; /* Ancho fijo para la caja */
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
 
-
-  
+}
+.Materiales_adicionales_DA:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 .Materiales_adicionales_DA_descripcion{
@@ -1122,15 +1200,24 @@ a1:hover {
     border-radius: 15px; /* Esquinas redondeadas */
     box-shadow: 10px 10px 20px #babecc, /* Sombra suave */
     -10px -10px -20px #ffffff;
-    
     width: 500px; /* Ancho fijo para la caja */
     height: 100px; /* Altura fijo para la caja */
     text-align: center; /* Centrar texto */
     border-radius: 15px; /* Esquinas redondeadas */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    width: 400px; /* Ancho fijo para la caja */
-    
+    width: 400px; /* Ancho fijo para la caja */ 
   
+}
+.Videos_Explicativos_DA:hover {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 6px, transparent 6px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 8px) calc(100% - 8px) no-repeat,
+        linear-gradient(90deg, #c1880d 0%, #c1880d 100%);
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 .Videos_Explicativos_DA_link{
@@ -1172,3 +1259,16 @@ a1:hover {
 
 }
   
+/* Cartel que va debajo de el cartel de "curso de dibujo en la pagina", "bienvenido" */
+.Cartel_debajo_Bienvenido{
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        transition: color 0.2s ease-in-out;
+        position: absolute;
+        top: 180px;
+        left:590px ;
+        color: #f0eaea;
+}
+.Cartel_debajo_Bienvenido:hover{
+    color: #c1880d;
+}
