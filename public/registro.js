@@ -60,3 +60,15 @@ function cerrarModal() {
 function volver() {
     window.history.back();
 }
+
+
+const botonSalir = document.getElementById("botonSalir");
+
+botonSalir.addEventListener("click", () => {
+  // Aquí puedes agregar la lógica para la acción que deseas realizar
+  // Por ejemplo, cerrar una ventana:
+  window.close();
+
+  // O redirigir a otra página:
+  // window.location.href = "otra_pagina.html";
+});

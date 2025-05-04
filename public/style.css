@@ -1,7 +1,7 @@
 /* Estilo general */
 body {
     font-family: Arial, sans-serif;
-    background-color: #5894d9;
+    background-color: #f0b536;
     
     color: #333;
     margin: 0;
@@ -53,6 +53,32 @@ body {
     cursor: pointer;
   
 }
+
+.boton-efecto {
+    font-family: monospace;
+    background-color: #c1880d;
+    color: white;
+    transform: translateY(-20%);
+    position: absolute;
+    bottom: 0;
+    top: 100px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    width: 180px; /* Ancho fijo para la caja */
+    height: 50px; /* Altura fijo para la caja */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  .boton-efecto:hover {
+    background-color: #795608; /* marron más oscuro */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Sombra ligera */
+  }
+
 
 .container2{
     font-family: monospace;
@@ -505,7 +531,6 @@ a1:hover {
 
 .Volver_Logueo{
 
-    
     font-family: monospace;
     font-size: 23px;
     transform: translateY(-20%);
